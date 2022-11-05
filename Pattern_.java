@@ -1,3 +1,9 @@
+
+/*write a program to display the following pattern 
+
+*/
+
+
 public class Pattern_java {
 
 	public static void main(String[] args) 
