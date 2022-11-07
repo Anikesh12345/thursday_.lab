@@ -1,0 +1,46 @@
+Q1) Accept age and gender from user and display the rate of interest as follow
+
+age above 60 and gender Male (RI= 7 %)
+age above 60 and gender FeMale (RI= 7.5 %)
+below 60 age = RI 5%
+-------------------------------------
+import java.util.Scanner;
+
+public class demo3 
+{
+	 /* 03/11/22
+	 Thursday Lab Programs:
+     Q1) Accept age and gender from user and display the
+         rate of interest as follow
+	 age above 60 and gender Male (RI= 7 %)
+	 age above 60 and gender FeMale (RI= 7.5 %)
+	 below 60 age = RI 5% */
+
+
+	public static void main(String[] args) 
+{
+
+
+	 Scanner sc=new Scanner(System.in);
+	System.out.println("Enter your age :- ");
+	   int age=sc.nextInt();
+	System.out.println("Enter your Gendar :- ");
+	  char gendar=sc.next().charAt(0);
+	  if(age>=60) 
+	  {
+		if(gendar=='M'||gendar=='m') 
+		{
+			System.out.println("Your Rate of interest is :- 7%");	
+		}
+		else
+		{
+			System.out.println("Your Rate of interest is :- 7.5%");	
+		}
+
+	  }
+	  else 
+		{
+			System.out.println("Your Rate of interest is :- 5%");	
+		}
+}
+}	
