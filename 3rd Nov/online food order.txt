@@ -1,4 +1,4 @@
-Q4)Write aprogram to create online food order system
+/*Q4)Write aprogram to create online food order system */
 -----------------------
 import java.util.ArrayList;
 import java.util.List;
